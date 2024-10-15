@@ -1,0 +1,24 @@
+# config_.yml
+
+static_paths:
+  videos_path:
+    "./static/videos"
+  thumbnails_path:
+    "./static/thumbnails"
+
+stream:
+  urls:
+    [
+      "rtsp://admin:Qwer123@192.168.9.218/cam/realmonitor?channel=1\u0026subtype=0",
+      "rtsp://admin:Qwer123@192.168.9.219/cam/realmonitor?channel=1\u0026subtype=0",
+      "rtsp://admin:Qwer123@192.168.9.126/cam/realmonitor?channel=1\u0026subtype=0",
+      "rtsp://admin:Qwer123@192.168.9.125/cam/realmonitor?channel=1\u0026subtype=0"
+    ]
+
+logs:
+  videos:
+    "./static/logs/videos.logs"
+  thumbnails:
+    "./static/logs/thumbnails.logs"
+  ffmpeg:
+    "./static/logs/ffmpeg.logs"
